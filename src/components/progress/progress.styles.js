@@ -60,19 +60,20 @@ export const Content = styled.div`
     }
 
     .progress-line{
-        background-color: black;
+        background-color: white;
         height: 50px;
         width: 5px;
     }
 
     .progress-mark{
-        background-color: red;
+        background-color: #9A8493ff;
+        border: 1px solid #fff;
         width: 20px;
         height: 20px;
         border-radius: 50%;
     }
     .progress-line-mark{
-        background-color: black;
+        background-color: white;
         height: 40px;
         width: 5px;
     }
