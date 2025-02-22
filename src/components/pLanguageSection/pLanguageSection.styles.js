@@ -39,9 +39,9 @@ export const Content = styled.div`
 
     .boxImg{
         width: 100px;
-
+        padding: 10px 0;
         @media screen and (max-width : 768px) {
-            width:100px;
+            width:70px;
         }
     }
 

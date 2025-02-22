@@ -87,7 +87,12 @@ export const Content = styled.div`
         height: 100px;
         padding: 0 20px;
         border-radius: 20px;
-        opacity: 0.9;
+        
+        transition: .5s;
+    }
+
+    .right-box:hover{
+        opacity: 0.5;
     }
 
     .right-box-blank{
@@ -112,5 +117,13 @@ export const Content = styled.div`
             padding: 10px 80px;
         }
         padding: 50px 0;
+
+        .project-detail{
+            display: none;
+        }
+        
+        h1{
+            font-size: 1.7rem;
+        }
     }
 `;

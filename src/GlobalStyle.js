@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         background-image: url(${imageBg});
         h1{
-            font-size: 3rem;
+            font-size: 2rem;
             font-weight: 600;
             color: white;
         }

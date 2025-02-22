@@ -27,7 +27,7 @@ const Main = () =>{
     <PLanguageSection setClick={setIsClick}/>
     <SoftSkillSection/>
     <LanguageSection/>
-    <Progres/>
+    <Progres setClick={setIsClick}/>
   </>
   )
 };

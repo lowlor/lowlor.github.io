@@ -3,9 +3,9 @@ import React from "react";
 import { Wrapper, Content } from "./progress.styles";
 
 //data
-import { progressData } from "../../Data/data";
+import { language, progressData } from "../../Data/data";
 
-const Progres = () => (
+const Progres = ({setClick}) => (
   <Wrapper>
     <Content>
       <h1>Experience in group working</h1>
@@ -48,10 +48,23 @@ const Progres = () => (
         <div className="right">
           {progressData.map((curr) => (
             <React.Fragment key={curr.name}>
-              <div className="right-box" key={curr.name}>
+              <div className="right-box" key={curr.name} onClick={()=>setClick(
+                {
+                  status:1,
+                  info: {
+                    name : curr.name,
+                    info: [{
+                      pName: curr.nameInfo,
+                      info: curr.info,
+                      link: ''
+                    }],
+
+                  }
+                }
+              )}>
                 <h2>{curr.name}</h2>
                 <h3>{curr.nameInfo}</h3>
-                <p>{curr.info}</p>
+                <p class="project-detail">{curr.info}</p>
               </div>
               <div className="right-box-blank"></div>
             </React.Fragment>

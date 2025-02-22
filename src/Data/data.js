@@ -103,20 +103,19 @@ communicate through a local network. Using Python + Tkinter
             }]
 
         }];
+export const library  = [{
+    name:'ReactJs',
+    img: ReactLan,
+    info:[{
+        pName:'Portfolio',
+        info:`
+        Basic Web Portfolio
+        `,
+        link:'https://github.com/lowlor/Portfolio'
+    }]
 
+}]
 export const framework = [
-        {
-            name:'ReactJs',
-            img: ReactLan,
-            info:[{
-                pName:'Portfolio',
-                info:`
-                Basic Web Portfolio
-                `,
-                link:'https://github.com/lowlor/Portfolio'
-            }]
-
-        },
         {
             name:'ExpressJs',
             img: ExpressJs,

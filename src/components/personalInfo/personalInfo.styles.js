@@ -55,6 +55,7 @@ export const Content = styled.div`
         }
         gap: 20px;
         padding: 20px;
+        flex-direction: column;
     }
 
 `;

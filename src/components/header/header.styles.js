@@ -18,9 +18,15 @@ export const Content = styled.div`
     align-items: center;
     padding: 5px 0;
     margin: 0 auto;
+
+    @media screen and (max-width:768px){
+        p{
+            font-size: 1.5rem;
+        }
+    }
 `;
 
 export const LogoImg = styled.img`
-    width: 100px;
+    width: 60px;
 
 `;

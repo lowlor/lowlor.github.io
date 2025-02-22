@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import { Wrapper, Content } from "./pLanguageSection.styles";
 
 //data
-import { language, framework, database } from "../../Data/data";
+import { language, framework, database, library } from "../../Data/data";
 
 const PLanguageSection = ({setClick}) =>{
     
@@ -63,7 +63,23 @@ const PLanguageSection = ({setClick}) =>{
                             </div>
                         </>
                     ))}
+                </div>
 
+                <h3>Library</h3>
+                <div class='boxs'>
+                    {library.map(library =>(
+                        <>
+                            <div class="box" onClick={()=> setClick(
+                                {
+                                    status:1,
+                                    info:library
+                                }
+                            )}>
+                                <img class="boxImg" src={library.img} alt={`${library.name}-img`}/>
+                                <h4 key={library.name}>{library.name}</h4>
+                            </div>
+                        </>
+                    ))}
                 </div>
             </div>
 
