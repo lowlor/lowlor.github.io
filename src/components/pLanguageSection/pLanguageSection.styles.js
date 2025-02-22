@@ -26,7 +26,12 @@ export const Content = styled.div`
     }
 
     .box{
-        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        padding: 10px 0;
         text-align: center;
         background-color: aliceblue;
         border-radius: 20px;
@@ -53,10 +58,12 @@ export const Content = styled.div`
         h3{
             font-size: 1.2rem;
         }
+
+        h4{
+            font-size: 1.4rem;
+        }
         .box{
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            flex-direction: row;
             gap: 20px;
         }
     }
