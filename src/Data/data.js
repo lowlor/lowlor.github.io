@@ -65,6 +65,12 @@ communicate through a local network. Using Python + Tkinter
                 Basic Web Portfolio
                 `,
                 link:'https://github.com/lowlor/Portfolio'
+            },{
+                pName:'Very Basic review blog',
+                info:`
+                For those who to want to review everything and have people comment the review
+                `,
+                link:'https://github.com/lowlor/reviewBasic'
             }]
         },
         {
@@ -82,6 +88,12 @@ communicate through a local network. Using Python + Tkinter
                 Basic Web Portfolio
                 `,
                 link:'https://github.com/lowlor/Portfolio'
+            },{
+                pName:'Very Basic review blog',
+                info:`
+                For those who to want to review everything and have people comment the review
+                `,
+                link:'https://github.com/lowlor/reviewBasic'
             }]
 
         },
@@ -100,6 +112,12 @@ communicate through a local network. Using Python + Tkinter
                 Basic Web Portfolio
                 `,
                 link:'https://github.com/lowlor/Portfolio'
+            },{
+                pName:'Very Basic review blog',
+                info:`
+                For those who to want to review everything and have people comment the review
+                `,
+                link:'https://github.com/lowlor/reviewBasic'
             }]
 
         }];
@@ -112,6 +130,12 @@ export const library  = [{
         Basic Web Portfolio
         `,
         link:'https://github.com/lowlor/Portfolio'
+    },{
+        pName:'Very Basic review blog',
+        info:`
+        For those who to want to review everything and have people comment the review
+        `,
+        link:'https://github.com/lowlor/reviewBasic'
     }]
 
 }]
@@ -125,6 +149,12 @@ export const framework = [
                 Basic e-commerce Web that pay by qrcode without third party api
                 `,
                 link:'https://github.com/lowlor/BasicEcommerceWeb'
+            },{
+                pName:'Very Basic review blog',
+                info:`
+                For those who to want to review everything and have people comment the review
+                `,
+                link:'https://github.com/lowlor/reviewBasic'
             }]
 
         }]
